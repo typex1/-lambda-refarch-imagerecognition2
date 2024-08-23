@@ -32,9 +32,8 @@ frontend:
       commands:
         - cd src/react-frontend
         - npm --version
-        - npm outdated
-        - npm-check-updates
         - npm install
+        - npm outdated
     build:
       commands:
         - npm run build
