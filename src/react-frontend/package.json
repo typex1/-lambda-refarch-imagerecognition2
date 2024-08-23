@@ -10,7 +10,6 @@
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
     "aws-amplify": "^6.5.2",
-    "aws-amplify-react": "^5.1.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
