@@ -79,7 +79,7 @@
 						"Arn"
 					]
 				},
-				"Runtime": "nodejs20.x",
+				"Runtime": "nodejs16.x",
 				"Timeout": "25",
 				"ReservedConcurrentExecutions": "10",
 				"Code": {
