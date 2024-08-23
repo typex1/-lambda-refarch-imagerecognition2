@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@aws-amplify/api",
+    "@aws-amplify/api": "^6.0.46",
     "@aws-amplify/storage": "^6.6.2",
     "@aws-amplify/ui-react": "^6.2.0",
     "@testing-library/jest-dom": "^6.4.8",

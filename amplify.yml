@@ -31,7 +31,9 @@ frontend:
     preBuild:
       commands:
         - cd src/react-frontend
+        - npm --version
         - npm outdated
+        - npm-check-updates
         - npm install
     build:
       commands:
