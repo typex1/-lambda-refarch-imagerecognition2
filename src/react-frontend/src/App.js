@@ -13,7 +13,7 @@ import aws_exports from './aws-exports';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { Grid, Header, Menu } from 'semantic-ui-react'
 
-import '@aws-amplify/ui-react/dist/style.css';
+import '@aws-amplify/ui/dist/styles.css';
 
 import { BrowserRouter as Router, NavLink, Route } from 'react-router-dom';
 
