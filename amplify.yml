@@ -36,6 +36,9 @@ frontend:
     build:
       commands:
         - npm run build
+        - amplify add auth
+        - amplify push
+        
   artifacts:
     baseDirectory: src/react-frontend/build
     files:
