@@ -8,8 +8,8 @@ import {v4 as uuid} from 'uuid';
 import * as mutations from '../graphql/mutations'
 import AWSConfig from '../aws-exports'
 import {Auth} from "aws-amplify";
-import Storage from '@aws-amplify/storage'
-import API, {graphqlOperation} from "@aws-amplify/api";
+import { Storage } from '@aws-amplify/storage'
+import { API, graphqlOperation } from "@aws-amplify/api";
 
 export const S3ImageUpload = (props) => {
   const [uploading, setUploading] = useState(false)
@@ -174,7 +174,7 @@ export const PhotoList = React.memo(props => {
         return (
           <Card key={photo.id}>
             <Card.Content textAlign="center">
-              <S3Image
+              <AmplifyS3Image
                 key={photo.id}
                 imgKey={'resized/' + photo.thumbnail.key.replace(/.+resized\//, '')}
                 level="private"

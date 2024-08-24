@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import API, { graphqlOperation } from '@aws-amplify/api'
+import { API, graphqlOperation } from '@aws-amplify/api'
 import { Auth } from 'aws-amplify';
 
 import { Header, Input, List, Segment } from 'semantic-ui-react'
